@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class NumberGuessingGame {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int secretNumber = 7;
+
+        System.out.println("Guess the number (1-10): ");
+        int guess = sc.nextInt();
+
+        if (guess == secretNumber) {
+            System.out.println("Congratulations! You guessed it right. ");
+        } else {
+            System.out.println("Wrong guess!");
+            System.out.println("The correct number was " + secretr number);
+        }
+
+        sc.close();
+    }
+}
